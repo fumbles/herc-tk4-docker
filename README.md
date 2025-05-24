@@ -37,6 +37,17 @@ https://petr-vacula.medium.com/how-to-connect-to-mainframe-from-your-mac-laptop-
 - mainframe icon for app:  
 - ![png-transparent-mainframe-computer-ibm-z-ibm-mainframe-ubuntu-ibm-angle-computer-linux-thumbnail](https://github.com/user-attachments/assets/f532a734-875b-41c2-95de-461be386c3c1)
 
+script for macbook to launch x3270 in iterm2: 
+```
+tell application "iTerm"
+	activate
+	set newWindow to (create window with profile "3270")
+	delay 0.5
+	tell current session of newWindow
+		write text "c3270 -model 3279-5 -oversize 160x48 feddy:3270"
+	end tell
+end tell
+```  
 ### Passwords: 
 https://hercules-390.yahoogroups.narkive.com/zJ27fQr5/all-the-passwords  
 
