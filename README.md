@@ -14,7 +14,7 @@ For an arm macbook:
 podman buildx build --platform linux/amd64 -t tk4-mvs --load .
 ```
 
-https://github.com/skunklabz/tk4-hercules
+
 
 
 ## Screenshots  
@@ -28,6 +28,7 @@ https://github.com/skunklabz/tk4-hercules
 ## Resources
 
 https://github.com/skunklabz/tk4-hercules/tree/master  
+https://github.com/skunklabz/tk4-hercules  
   
 https://github.com/mainframed/docker-hercules/blob/main/Dockerfile  
 https://sdl-hercules-390.github.io/html/hercconf.html  
