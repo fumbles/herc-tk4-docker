@@ -44,7 +44,7 @@ tell application "iTerm"
 	set newWindow to (create window with profile "3270")
 	delay 0.5
 	tell current session of newWindow
-		write text "c3270 -model 3279-5 -oversize 160x48 feddy:3270"
+		write text "c3270 -model 3279-5 -oversize 160x48 <host>:3270"
 	end tell
 end tell
 ```  
