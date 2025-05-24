@@ -1,0 +1,258 @@
+17:01:07 HHC01413I Hercules version 4.00
+17:01:07 HHC01414I (c) Copyright 1999-2012 by Roger Bowler, Jan Jaeger, and others
+17:01:07 HHC01415I Built on Jun 23 2016 at 20:32:29
+17:01:07 HHC01416I Build information:
+17:01:07 HHC01417I Hercules for TK4- (64-bit Linux)
+17:01:07 HHC01417I Modes: S/370 ESA/390 z/Arch
+17:01:07 HHC01417I Max CPU Engines: 8
+17:01:07 HHC01417I Using   setresuid() for setting privileges
+17:01:07 HHC01417I Using   POSIX threads Threading Model
+17:01:07 HHC01417I Using   Error-Checking Mutex Locking Model
+17:01:07 HHC01417I With    Dynamic loading support
+17:01:07 HHC01417I Using   shared libraries
+17:01:07 HHC01417I With    External GUI support
+17:01:07 HHC01417I With    IPV6 support
+17:01:07 HHC01417I With    HTTP Server support
+17:01:07 HHC01417I With    sqrtl support
+17:01:07 HHC01417I With    SIGABEND handler
+17:01:07 HHC01417I With    CCKD BZIP2 support
+17:01:07 HHC01417I With    HET BZIP2 support
+17:01:07 HHC01417I With    ZLIB support
+17:01:07 HHC01417I With    Regular Expressions support
+17:01:07 HHC01417I Without Object REXX support
+17:01:07 HHC01417I Without Regina REXX support
+17:01:07 HHC01417I With    Automatic Operator support
+17:01:07 HHC01417I With    National Language Support
+17:01:07 HHC01417I Machine dependent assists: cmpxchg1 cmpxchg4 cmpxchg8
+17:01:07 HHC01417I Running on 728574df30b6 Linux-6.11.3-200.fc40.aar. #1 SMP PREEMPT_DYNAMIC Thu Oct 10 22:53:48 UTC 20, x86_64 MP=6
+17:01:07 HHC00100I Thread id 7FFFFC4B4700, prio 15, name Processor CP00 started
+17:01:07 HHC00136W Error in function setpriority(): Permission denied
+17:01:07 HHC00100I Thread id 7FFFFC3B3700, prio  0, name Timer started
+17:01:07 HHC00811I Processor CP00: architecture mode z/Arch
+17:01:07 HHC00136W Error in function setenv(): cannot set CUU: Not thread safe--setting disabled
+17:01:07 HHC01802I HTTP server using root directory /tk4-/hercules/httproot/
+17:01:07 HHC01807I HTTP server signaled to start
+17:01:07 HHC00100I Thread id 7FFFFC6B7700, prio  4, name HTTP server started
+17:01:07 HHC01802I HTTP server using root directory /tk4-/hercules/httproot/
+17:01:07 HHC01803I HTTP server waiting for requests on port 8038
+17:01:07 HHC01042I 0:000C COMM: device bound to socket 3505
+17:01:07 HHC00100I Thread id 7FFFFC5B6700, prio  0, name Socket device listener started
+17:01:07 HHC01437I Config file[45] conf/tk4-.cnf: including file conf/extcons.cnf
+17:01:07 HHC00100I Thread id 7FFFF67CE700, prio  4, name Console connection started
+17:01:07 HHC01437I Config file[71] conf/tk4-.cnf: including file conf/tk4-_default.cnf
+17:01:07 HHC01024I Waiting for console connections on port 3270
+17:01:07 HHC00971I 0:0610 CTC: connect to 127.0.0.1:18610 failed, starting server
+17:01:07 HHC00971I 0:0611 CTC: connect to 127.0.0.1:18611 failed, starting server
+17:01:07 HHC00100I Thread id 7FFFF5FAE700, prio  0, name 3705 device(1:0660) thread started
+17:01:07 HHC01004I 0:0660 COMM: listening on port 37051 for incoming TCP connections
+17:01:07 HHC01004I 0:0661 COMM: listening on port 37052 for incoming TCP connections
+17:01:07 HHC00100I Thread id 7FFFF5DAC700, prio  0, name 3705 device(1:0661) thread started
+17:01:07 HHC01004I 0:0662 COMM: listening on port 37053 for incoming TCP connections
+17:01:07 HHC00100I Thread id 7FFFF5BAA700, prio  0, name 3705 device(1:0662) thread started
+17:01:07 HHC01004I 0:0663 COMM: listening on port 37054 for incoming TCP connections
+17:01:07 HHC00100I Thread id 7FFFF59A8700, prio  0, name 3705 device(1:0663) thread started
+17:01:07 HHC01004I 0:0664 COMM: listening on port 37055 for incoming TCP connections
+17:01:07 HHC00100I Thread id 7FFFF57A6700, prio  0, name 3705 device(1:0664) thread started
+17:01:07 HHC01004I 0:0665 COMM: listening on port 37056 for incoming TCP connections
+17:01:07 HHC00100I Thread id 7FFFF55A4700, prio  0, name 3705 device(1:0665) thread started
+17:01:07 HHC00100I Thread id 7FFFF53A2700, prio  0, name 3705 device(1:0666) thread started
+17:01:07 HHC01004I 0:0666 COMM: listening on port 37057 for incoming TCP connections
+17:01:07 HHC01004I 0:0667 COMM: listening on port 37058 for incoming TCP connections
+17:01:07 HHC00100I Thread id 7FFFF51A0700, prio  0, name 3705 device(1:0667) thread started
+17:01:07 HHC01004I 0:0668 COMM: listening on port 37911 for incoming TCP connections
+17:01:07 HHC01004I 0:0669 COMM: listening on port 37912 for incoming TCP connections
+17:01:07 HHC00100I Thread id 7FFFF4F9E700, prio  0, name 3705 device(1:0668) thread started
+17:01:07 HHC00100I Thread id 7FFFF4D9C700, prio  0, name 3705 device(1:0669) thread started
+17:01:07 HHC01004I 0:066A COMM: listening on port 37913 for incoming TCP connections
+17:01:07 HHC00100I Thread id 7FFFF4B9A700, prio  0, name 3705 device(1:066A) thread started
+17:01:07 HHC01004I 0:066B COMM: listening on port 37914 for incoming TCP connections
+17:01:07 HHC00100I Thread id 7FFFF4998700, prio  0, name 3705 device(1:066B) thread started
+17:01:07 HHC00100I Thread id 7FFFF468B700, prio  4, name 0:0670 communication thread started
+17:01:07 HHC01004I 0:0670 COMM: listening on port 37801 for incoming TCP connections
+17:01:07 HHC00100I Thread id 7FFFF458A700, prio  4, name 0:0671 communication thread started
+17:01:07 HHC01004I 0:0671 COMM: listening on port 37802 for incoming TCP connections
+17:01:07 HHC00100I Thread id 7FFFF4489700, prio  4, name 0:0672 communication thread started
+17:01:07 HHC01004I 0:0672 COMM: listening on port 37803 for incoming TCP connections
+17:01:07 HHC00100I Thread id 7FFFF4388700, prio  4, name 0:0673 communication thread started
+17:01:07 HHC01004I 0:0673 COMM: listening on port 37804 for incoming TCP connections
+17:01:07 HHC00100I Thread id 7FFFF4287700, prio  4, name 0:0680 communication thread started
+17:01:07 HHC01004I 0:0680 COMM: listening on port 33351 for incoming TCP connections
+17:01:07 HHC00100I Thread id 7FFFF4186700, prio  4, name 0:0681 communication thread started
+17:01:07 HHC01004I 0:0681 COMM: listening on port 33352 for incoming TCP connections
+17:01:07 HHC00100I Thread id 7FFFEFFFF700, prio  4, name 0:0682 communication thread started
+17:01:07 HHC01004I 0:0682 COMM: listening on port 33353 for incoming TCP connections
+17:01:07 HHC00100I Thread id 7FFFEFEFE700, prio  4, name 0:0683 communication thread started
+17:01:07 HHC01004I 0:0683 COMM: listening on port 33354 for incoming TCP connections
+17:01:07 HHC00100I Thread id 7FFFEFDFD700, prio  4, name 0:0688 communication thread started
+17:01:07 HHC01004I 0:0688 COMM: listening on port 27411 for incoming TCP connections
+17:01:07 HHC00100I Thread id 7FFFEFCFC700, prio  4, name 0:0689 communication thread started
+17:01:07 HHC01004I 0:0689 COMM: listening on port 27412 for incoming TCP connections
+17:01:07 HHC00100I Thread id 7FFFEFBFB700, prio  4, name 0:068A communication thread started
+17:01:07 HHC01004I 0:068A COMM: listening on port 27413 for incoming TCP connections
+17:01:07 HHC00100I Thread id 7FFFEFAFA700, prio  4, name 0:068B communication thread started
+17:01:07 HHC01004I 0:068B COMM: listening on port 27414 for incoming TCP connections
+17:01:07 HHC00100I Thread id 7FFFEF9F9700, prio  4, name 0:068C communication thread started
+17:01:07 HHC01004I 0:068C COMM: listening on port 27415 for incoming TCP connections
+17:01:07 HHC00100I Thread id 7FFFEF8F8700, prio  4, name 0:068D communication thread started
+17:01:07 HHC01004I 0:068D COMM: listening on port 27416 for incoming TCP connections
+17:01:07 HHC00100I Thread id 7FFFEF7F7700, prio  4, name 0:068E communication thread started
+17:01:07 HHC01004I 0:068E COMM: listening on port 27417 for incoming TCP connections
+17:01:07 HHC00100I Thread id 7FFFEF6F6700, prio  4, name 0:068F communication thread started
+17:01:07 HHC01004I 0:068F COMM: listening on port 27418 for incoming TCP connections
+17:01:07 HHC00414I 0:0152 CKD file dasd/hasp00.152: cyls 411 heads 19 tracks 7809 trklen 13312
+17:01:07 HHC00363W 0:0152 CCKD file dasd/hasp00.152: cdevhdr inconsistencies found, code 0001
+17:01:07 HHC00364W 0:0152 CCKD file dasd/hasp00.152: forcing check level 1
+17:01:07 HHC00368W 0:0152 CCKD file dasd/hasp00.152: free space errors detected
+17:01:07 HHC00377I 0:0152 CCKD file dasd/hasp00.152: free space rebuilt
+17:01:07 HHC00414I 0:0191 CKD file dasd/mvscat.191: cyls 1114 heads 15 tracks 16710 trklen 56832
+17:01:07 HHC00414I 0:0248 CKD file dasd/mvsdlb.248: cyls 560 heads 30 tracks 16800 trklen 19456
+17:01:07 HHC00364W 0:0248 CCKD file dasd/mvsdlb.248: forcing check level 1
+17:01:07 HHC00368W 0:0248 CCKD file dasd/mvsdlb.248: free space errors detected
+17:01:07 HHC00377I 0:0248 CCKD file dasd/mvsdlb.248: free space rebuilt
+17:01:07 HHC00414I 0:0148 CKD file dasd/mvsres.148: cyls 560 heads 30 tracks 16800 trklen 19456
+17:01:07 HHC00364W 0:0148 CCKD file dasd/mvsres.148: forcing check level 1
+17:01:07 HHC00368W 0:0148 CCKD file dasd/mvsres.148: free space errors detected
+17:01:07 HHC00377I 0:0148 CCKD file dasd/mvsres.148: free space rebuilt
+17:01:07 HHC00414I 0:0160 CKD file dasd/page00.160: cyls 698 heads 12 tracks 8376 trklen 8704
+17:01:07 HHC00363W 0:0160 CCKD file dasd/page00.160: cdevhdr inconsistencies found, code 0001
+17:01:07 HHC00364W 0:0160 CCKD file dasd/page00.160: forcing check level 1
+17:01:07 HHC00368W 0:0160 CCKD file dasd/page00.160: free space errors detected
+17:01:07 HHC00377I 0:0160 CCKD file dasd/page00.160: free space rebuilt
+17:01:07 HHC00414I 0:0161 CKD file dasd/page01.161: cyls 698 heads 12 tracks 8376 trklen 8704
+17:01:07 HHC00363W 0:0161 CCKD file dasd/page01.161: cdevhdr inconsistencies found, code 0001
+17:01:07 HHC00364W 0:0161 CCKD file dasd/page01.161: forcing check level 1
+17:01:07 HHC00368W 0:0161 CCKD file dasd/page01.161: free space errors detected
+17:01:07 HHC00377I 0:0161 CCKD file dasd/page01.161: free space rebuilt
+17:01:07 HHC00414I 0:0240 CKD file dasd/pub000.240: cyls 560 heads 30 tracks 16800 trklen 19456
+17:01:07 HHC00414I 0:0241 CKD file dasd/pub010.241: cyls 560 heads 30 tracks 16800 trklen 19456
+17:01:07 HHC00414I 0:0270 CKD file dasd/pub001.270: cyls 960 heads 12 tracks 11520 trklen 35840
+17:01:07 HHC00414I 0:0271 CKD file dasd/pub011.271: cyls 960 heads 12 tracks 11520 trklen 35840
+17:01:07 HHC00414I 0:0280 CKD file dasd/pub002.280: cyls 1772 heads 15 tracks 26580 trklen 47616
+17:01:07 HHC00414I 0:0281 CKD file dasd/pub012.281: cyls 1772 heads 15 tracks 26580 trklen 47616
+17:01:07 HHC00414I 0:0290 CKD file dasd/pub003.290: cyls 1114 heads 15 tracks 16710 trklen 56832
+17:01:07 HHC00414I 0:0291 CKD file dasd/pub013.291: cyls 2047 heads 15 tracks 30705 trklen 56832
+17:01:07 HHC00414I 0:0149 CKD file dasd/smp001.149: cyls 560 heads 30 tracks 16800 trklen 19456
+17:01:07 HHC00414I 0:014A CKD file dasd/smp002.14a: cyls 560 heads 30 tracks 16800 trklen 19456
+17:01:07 HHC00414I 0:014B CKD file dasd/smp003.14b: cyls 560 heads 30 tracks 16800 trklen 19456
+17:01:07 HHC00414I 0:014C CKD file dasd/smp004.14c: cyls 560 heads 30 tracks 16800 trklen 19456
+17:01:07 HHC00414I 0:0131 CKD file dasd/sort01.131: cyls 203 heads 20 tracks 4060 trklen 7680
+17:01:07 HHC00414I 0:0132 CKD file dasd/sort02.132: cyls 203 heads 20 tracks 4060 trklen 7680
+17:01:07 HHC00414I 0:0133 CKD file dasd/sort03.133: cyls 203 heads 20 tracks 4060 trklen 7680
+17:01:07 HHC00414I 0:0134 CKD file dasd/sort04.134: cyls 203 heads 20 tracks 4060 trklen 7680
+17:01:07 HHC00414I 0:0135 CKD file dasd/sort05.135: cyls 203 heads 20 tracks 4060 trklen 7680
+17:01:07 HHC00414I 0:0136 CKD file dasd/sort06.136: cyls 203 heads 20 tracks 4060 trklen 7680
+17:01:07 HHC00414I 0:0140 CKD file dasd/work00.140: cyls 560 heads 30 tracks 16800 trklen 19456
+17:01:07 HHC00414I 0:0170 CKD file dasd/work01.170: cyls 960 heads 12 tracks 11520 trklen 35840
+17:01:07 HHC00414I 0:0180 CKD file dasd/work02.180: cyls 886 heads 15 tracks 13290 trklen 47616
+17:01:07 HHC00414I 0:0190 CKD file dasd/work03.190: cyls 1114 heads 15 tracks 16710 trklen 56832
+17:01:07 HHC01437I Config file[106] conf/tk4-.cnf: including file conf/cbt_dasd.cnf
+17:01:07 HHC01437I Config file[110] conf/tk4-.cnf: including file conf/source_dasd.cnf
+17:01:07 HHC01437I Config file[114] conf/tk4-.cnf: including file conf/tk4-_updates.cnf
+17:01:07 HHC01437I Config file[10] conf/tk4-.cnf: including file conf/tk4-_updates/01
+17:01:07 HHC01437I Config file[11] conf/tk4-.cnf: including file conf/tk4-_updates/02
+17:01:07 HHC01437I Config file[12] conf/tk4-.cnf: including file conf/tk4-_updates/03
+17:01:07 HHC01437I Config file[13] conf/tk4-.cnf: including file conf/tk4-_updates/04
+17:01:07 HHC01437I Config file[14] conf/tk4-.cnf: including file conf/tk4-_updates/05
+17:01:07 HHC01437I Config file[15] conf/tk4-.cnf: including file conf/tk4-_updates/06
+17:01:07 HHC01437I Config file[16] conf/tk4-.cnf: including file conf/tk4-_updates/07
+17:01:07 HHC01437I Config file[17] conf/tk4-.cnf: including file conf/tk4-_updates/08
+17:01:07 HHC01437I Config file[18] conf/tk4-.cnf: including file conf/tk4-_updates/09
+17:01:07 HHC01437I Config file[19] conf/tk4-.cnf: including file conf/tk4-_updates/10
+17:01:07 HHC01437I Config file[118] conf/tk4-.cnf: including file conf/local.cnf
+17:01:07 HHC01437I Config file[10] conf/tk4-.cnf: including file local_conf/01
+17:01:07 HHC01437I Config file[11] conf/tk4-.cnf: including file local_conf/02
+17:01:07 HHC01437I Config file[12] conf/tk4-.cnf: including file local_conf/03
+17:01:07 HHC01437I Config file[13] conf/tk4-.cnf: including file local_conf/04
+17:01:07 HHC01437I Config file[14] conf/tk4-.cnf: including file local_conf/05
+17:01:07 HHC01437I Config file[15] conf/tk4-.cnf: including file local_conf/06
+17:01:07 HHC01437I Config file[16] conf/tk4-.cnf: including file local_conf/07
+17:01:07 HHC01437I Config file[17] conf/tk4-.cnf: including file local_conf/08
+17:01:07 HHC01437I Config file[18] conf/tk4-.cnf: including file local_conf/09
+17:01:07 HHC01437I Config file[19] conf/tk4-.cnf: including file local_conf/10
+17:01:07 HHC00100I Thread id 7FFFFCBBD740, prio  0, name Control panel started
+17:01:07 HHC02260I Script 1: begin processing file scripts/tk4-.rc
+17:01:08 HHC01603I script scripts/tk4-_updates.rc
+17:01:08 HHC02260I Script 1: begin processing file scripts/tk4-_updates.rc
+17:01:08 HHC01603I script scripts/tk4-_updates/01
+17:01:08 HHC02260I Script 1: begin processing file scripts/tk4-_updates/01
+17:01:08 HHC02264I Script 1: file scripts/tk4-_updates/01 processing ended
+17:01:08 HHC01603I script scripts/tk4-_updates/02
+17:01:08 HHC02260I Script 1: begin processing file scripts/tk4-_updates/02
+17:01:08 HHC02264I Script 1: file scripts/tk4-_updates/02 processing ended
+17:01:08 HHC01603I script scripts/tk4-_updates/03
+17:01:08 HHC02260I Script 1: begin processing file scripts/tk4-_updates/03
+17:01:08 HHC02264I Script 1: file scripts/tk4-_updates/03 processing ended
+17:01:08 HHC01603I script scripts/tk4-_updates/04
+17:01:08 HHC02260I Script 1: begin processing file scripts/tk4-_updates/04
+17:01:08 HHC02264I Script 1: file scripts/tk4-_updates/04 processing ended
+17:01:08 HHC01603I script scripts/tk4-_updates/05
+17:01:08 HHC02260I Script 1: begin processing file scripts/tk4-_updates/05
+17:01:08 HHC02264I Script 1: file scripts/tk4-_updates/05 processing ended
+17:01:08 HHC01603I script scripts/tk4-_updates/06
+17:01:08 HHC02260I Script 1: begin processing file scripts/tk4-_updates/06
+17:01:08 HHC02264I Script 1: file scripts/tk4-_updates/06 processing ended
+17:01:08 HHC01603I script scripts/tk4-_updates/07
+17:01:08 HHC02260I Script 1: begin processing file scripts/tk4-_updates/07
+17:01:08 HHC02264I Script 1: file scripts/tk4-_updates/07 processing ended
+17:01:08 HHC01603I script scripts/tk4-_updates/08
+17:01:08 HHC02260I Script 1: begin processing file scripts/tk4-_updates/08
+17:01:08 HHC02264I Script 1: file scripts/tk4-_updates/08 processing ended
+17:01:08 HHC01603I script scripts/tk4-_updates/09
+17:01:08 HHC02260I Script 1: begin processing file scripts/tk4-_updates/09
+17:01:08 HHC02264I Script 1: file scripts/tk4-_updates/09 processing ended
+17:01:08 HHC01603I script scripts/tk4-_updates/10
+17:01:08 HHC02260I Script 1: begin processing file scripts/tk4-_updates/10
+17:01:08 HHC02264I Script 1: file scripts/tk4-_updates/10 processing ended
+17:01:08 HHC02264I Script 1: file scripts/tk4-_updates.rc processing ended
+17:01:08 HHC01603I ${LOCALRC:=script scripts/local.rc}
+17:01:08 HHC02260I Script 1: begin processing file scripts/local.rc
+17:01:08 HHC01603I script local_scripts/01
+17:01:08 HHC02260I Script 1: begin processing file local_scripts/01
+17:01:08 HHC02264I Script 1: file local_scripts/01 processing ended
+17:01:08 HHC01603I script local_scripts/02
+17:01:08 HHC02260I Script 1: begin processing file local_scripts/02
+17:01:08 HHC02264I Script 1: file local_scripts/02 processing ended
+17:01:08 HHC01603I script local_scripts/03
+17:01:08 HHC02260I Script 1: begin processing file local_scripts/03
+17:01:08 HHC02264I Script 1: file local_scripts/03 processing ended
+17:01:08 HHC01603I script local_scripts/04
+17:01:08 HHC02260I Script 1: begin processing file local_scripts/04
+17:01:08 HHC02264I Script 1: file local_scripts/04 processing ended
+17:01:08 HHC01603I script local_scripts/05
+17:01:08 HHC02260I Script 1: begin processing file local_scripts/05
+17:01:08 HHC02264I Script 1: file local_scripts/05 processing ended
+17:01:08 HHC01603I script local_scripts/06
+17:01:08 HHC02260I Script 1: begin processing file local_scripts/06
+17:01:08 HHC02264I Script 1: file local_scripts/06 processing ended
+17:01:08 HHC01603I script local_scripts/07
+17:01:08 HHC02260I Script 1: begin processing file local_scripts/07
+17:01:08 HHC02264I Script 1: file local_scripts/07 processing ended
+17:01:08 HHC01603I script local_scripts/08
+17:01:08 HHC02260I Script 1: begin processing file local_scripts/08
+17:01:08 HHC02264I Script 1: file local_scripts/08 processing ended
+17:01:08 HHC01603I script local_scripts/09
+17:01:08 HHC02260I Script 1: begin processing file local_scripts/09
+17:01:08 HHC02264I Script 1: file local_scripts/09 processing ended
+17:01:08 HHC01603I script local_scripts/10
+17:01:08 HHC02260I Script 1: begin processing file local_scripts/10
+17:01:08 HHC02264I Script 1: file local_scripts/10 processing ended
+17:01:08 HHC02264I Script 1: file scripts/local.rc processing ended
+17:01:09 HHC01603I *
+17:01:09 HHC01603I *                           ************   ****  *****          ||
+17:01:09 HHC01603I *                           **   **   **    **    **           |||
+17:01:09 HHC01603I *                           **   **   **    **   **           ||||
+17:01:09 HHC01603I *                                **         **  **           || ||
+17:01:09 HHC01603I *        |l      _,,,---,,_      **         ** **           ||  ||
+17:01:09 HHC01603I * ZZZzz /,'.-'`'    -.  ;-;;,    **         ****           ||   ||
+17:01:09 HHC01603I *      |,4-  ) )-,_. ,( (  ''-'  **         *****         ||    ||
+17:01:09 HHC01603I *     '---''(_/--'  `-')_)       **         **  **       ||     ||    ||||||||||
+17:01:09 HHC01603I *                                **         **   **      |||||||||||  Update 08
+17:01:09 HHC01603I *       The MVS 3.8j             **         **    **            ||
+17:01:09 HHC01603I *     Tur(n)key System           **         **     **           ||
+17:01:09 HHC01603I *                              ******      ****     ***       ||||||
+17:01:09 HHC01603I *
+17:01:09 HHC01603I *            TK3 created by Volker Bandke       vbandke@bsp-gmbh.com
+17:01:09 HHC01603I *            TK4- update by Juergen Winkelmann  winkelmann@id.ethz.ch
+17:01:09 HHC01603I *                     see TK4-.CREDITS for complete credits
+17:01:09 HHC01603I *
+17:01:09 HHC02264I Script 1: file scripts/tk4-.rc processing ended

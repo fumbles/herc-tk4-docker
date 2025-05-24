@@ -1,0 +1,30 @@
+11:24:16 HHC02342S Configuration file 'conf/tk4-.cnf' not found: No such file or directory
+11:24:16 HHC00007I Previous message from function 'process_args' at impl.c(2191)
+11:24:16 HHC02342S Run Commands file 'scripts/ipl.rc' not found: No such file or directory
+11:24:16 HHC00007I Previous message from function 'process_args' at impl.c(2191)
+11:24:16 HHC01413I Hercules version 4.8.0.0-SDL
+11:24:16 HHC01414I (C) Copyright 1999-2025 by Roger Bowler, Jan Jaeger, and others
+11:24:16 HHC01417I ** The SDL 4.x Hyperion version of Hercules **
+11:24:16 HHC01415I Build date: Mar 27 2025 at 20:38:06
+11:24:16 HHC01407S Usage: hercules [--help[=SHORT|LONG|VERSION|BUILD]] -f config-filename|"none" [-o logfile-name] [-r rcfile-name] [-d] [-b logo-filename] [-s sym=val] [-t [factor]] [-p dyn-load-dir] [[-l dynmod-to-load]...] [> logfile]
+11:24:16 HHC00007I Previous message from function 'arghelp' at impl.c(839)
+11:24:16 HHC02343S Terminating due to 1 argument errors
+11:24:16 HHC00007I Previous message from function 'impl' at impl.c(1375)
+11:24:16 HHC01420I Begin Hercules shutdown
+11:42:03 HHC02342S Configuration file 'conf/tk4-.cnf' not found: No such file or directory
+11:42:03 HHC00007I Previous message from function 'process_args' at impl.c(2191)
+11:42:03 HHC02342S Run Commands file 'scripts/ipl.rc' not found: No such file or directory
+11:42:03 HHC00007I Previous message from function 'process_args' at impl.c(2191)
+11:42:03 HHC01413I Hercules version 4.8.0.0-SDL
+11:42:03 HHC01414I (C) Copyright 1999-2025 by Roger Bowler, Jan Jaeger, and others
+11:42:03 HHC01417I ** The SDL 4.x Hyperion version of Hercules **
+11:42:03 HHC01415I Build date: Mar 27 2025 at 20:38:06
+11:42:03 HHC01407S Usage: hercules [--help[=SHORT|LONG|VERSION|BUILD]] -f config-filename|"none" [-o logfile-name] [-r rcfile-name] [-d] [-b logo-filename] [-s sym=val] [-t [factor]] [-p dyn-load-dir] [[-l dynmod-to-load]...] [> logfile]
+11:42:03 HHC00007I Previous message from function 'arghelp' at impl.c(839)
+11:42:03 HHC02343S Terminating due to 1 argument errors
+11:42:03 HHC00007I Previous message from function 'impl' at impl.c(1375)
+11:42:03 HHC01420I Begin Hercules shutdown
+HHC01423I Calling termination routines
+HHC01424I All termination routines complete
+HHC01425I Hercules shutdown complete
+HHC01412I Hercules terminated

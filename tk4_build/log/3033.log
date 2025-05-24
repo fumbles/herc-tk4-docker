@@ -1,0 +1,574 @@
+00:25:06 HHC01413I Hercules version 4.00
+HHC01414I (c) Copyright 1999-2012 by Roger Bowler, Jan Jaeger, and others
+HHC01415I Built on Jun 23 2016 at 20:32:29
+HHC01416I Build information:
+HHC01417I Hercules for TK4- (64-bit Linux)
+HHC01417I Modes: S/370 ESA/390 z/Arch
+HHC01417I Max CPU Engines: 8
+HHC01417I Using   setresuid() for setting privileges
+HHC01417I Using   POSIX threads Threading Model
+HHC01417I Using   Error-Checking Mutex Locking Model
+HHC01417I With    Dynamic loading support
+HHC01417I Using   shared libraries
+HHC01417I With    External GUI support
+HHC01417I With    IPV6 support
+HHC01417I With    HTTP Server support
+HHC01417I With    sqrtl support
+HHC01417I With    SIGABEND handler
+HHC01417I With    CCKD BZIP2 support
+HHC01417I With    HET BZIP2 support
+HHC01417I With    ZLIB support
+HHC01417I With    Regular Expressions support
+HHC01417I Without Object REXX support
+HHC01417I Without Regina REXX support
+HHC01417I With    Automatic Operator support
+HHC01417I With    National Language Support
+HHC01417I Machine dependent assists: cmpxchg1 cmpxchg4 cmpxchg8
+HHC01417I Running on a8cc74bd8f60 Linux-6.14.6-300.fc42.x86. #1 SMP PREEMPT_DYNAMIC Fri May  9 20:11:19 UTC 20, x86_64 MP=6
+HHC00100I Thread id 7F5F77C4D700, prio 15, name Processor CP00 started
+HHC00136W Error in function setpriority(): Permission denied
+HHC00100I Thread id 7F5F77B4C700, prio  0, name Timer started
+HHC00811I Processor CP00: architecture mode z/Arch
+HHC00136W Error in function setenv(): cannot set CUU: Not thread safe--setting disabled
+HHC01802I HTTP server using root directory /tk4-/hercules/httproot/
+HHC01807I HTTP server signaled to start
+HHC00100I Thread id 7F5F77E50700, prio  4, name HTTP server started
+HHC01802I HTTP server using root directory /tk4-/hercules/httproot/
+HHC01803I HTTP server waiting for requests on port 8038
+HHC01042I 0:000C COMM: device bound to socket 3505
+HHC00100I Thread id 7F5F77D4F700, prio  0, name Socket device listener started
+HHC01437I Config file[45] conf/tk4-.cnf: including file conf/intcons.cnf
+HHC00100I Thread id 7F5F75E10700, prio  4, name Console connection started
+HHC01437I Config file[71] conf/tk4-.cnf: including file conf/tk4-_default.cnf
+HHC01024I Waiting for console connections on port 3270
+HHC00971I 0:0610 CTC: connect to 127.0.0.1:18610 failed, starting server
+HHC00971I 0:0611 CTC: connect to 127.0.0.1:18611 failed, starting server
+HHC01004I 0:0660 COMM: listening on port 37051 for incoming TCP connections
+HHC00100I Thread id 7F5F755F0700, prio  0, name 3705 device(1:0660) thread started
+HHC01004I 0:0661 COMM: listening on port 37052 for incoming TCP connections
+HHC00100I Thread id 7F5F753EE700, prio  0, name 3705 device(1:0661) thread started
+HHC01004I 0:0662 COMM: listening on port 37053 for incoming TCP connections
+HHC00100I Thread id 7F5F751EC700, prio  0, name 3705 device(1:0662) thread started
+HHC01004I 0:0663 COMM: listening on port 37054 for incoming TCP connections
+HHC00100I Thread id 7F5F74FEA700, prio  0, name 3705 device(1:0663) thread started
+HHC01004I 0:0664 COMM: listening on port 37055 for incoming TCP connections
+HHC00100I Thread id 7F5F74DE8700, prio  0, name 3705 device(1:0664) thread started
+HHC01004I 0:0665 COMM: listening on port 37056 for incoming TCP connections
+HHC00100I Thread id 7F5F74BE6700, prio  0, name 3705 device(1:0665) thread started
+HHC01004I 0:0666 COMM: listening on port 37057 for incoming TCP connections
+HHC00100I Thread id 7F5F749E4700, prio  0, name 3705 device(1:0666) thread started
+HHC01004I 0:0667 COMM: listening on port 37058 for incoming TCP connections
+HHC00100I Thread id 7F5F747E2700, prio  0, name 3705 device(1:0667) thread started
+HHC01004I 0:0668 COMM: listening on port 37911 for incoming TCP connections
+HHC00100I Thread id 7F5F745E0700, prio  0, name 3705 device(1:0668) thread started
+HHC01004I 0:0669 COMM: listening on port 37912 for incoming TCP connections
+HHC00100I Thread id 7F5F743DE700, prio  0, name 3705 device(1:0669) thread started
+HHC01004I 0:066A COMM: listening on port 37913 for incoming TCP connections
+HHC00100I Thread id 7F5F741DC700, prio  0, name 3705 device(1:066A) thread started
+HHC01004I 0:066B COMM: listening on port 37914 for incoming TCP connections
+HHC00100I Thread id 7F5EFBEFE700, prio  0, name 3705 device(1:066B) thread started
+HHC00100I Thread id 7F5EFBBF1700, prio  4, name 0:0670 communication thread started
+HHC01004I 0:0670 COMM: listening on port 37801 for incoming TCP connections
+HHC00100I Thread id 7F5EFBAF0700, prio  4, name 0:0671 communication thread started
+HHC01004I 0:0671 COMM: listening on port 37802 for incoming TCP connections
+HHC00100I Thread id 7F5EFB9EF700, prio  4, name 0:0672 communication thread started
+HHC01004I 0:0672 COMM: listening on port 37803 for incoming TCP connections
+HHC00100I Thread id 7F5EFB8EE700, prio  4, name 0:0673 communication thread started
+HHC01004I 0:0673 COMM: listening on port 37804 for incoming TCP connections
+HHC00100I Thread id 7F5EFB7ED700, prio  4, name 0:0680 communication thread started
+HHC01004I 0:0680 COMM: listening on port 33351 for incoming TCP connections
+HHC00100I Thread id 7F5EFB6EC700, prio  4, name 0:0681 communication thread started
+HHC01004I 0:0681 COMM: listening on port 33352 for incoming TCP connections
+HHC00100I Thread id 7F5EFB5EB700, prio  4, name 0:0682 communication thread started
+HHC01004I 0:0682 COMM: listening on port 33353 for incoming TCP connections
+HHC00100I Thread id 7F5EFB4EA700, prio  4, name 0:0683 communication thread started
+HHC01004I 0:0683 COMM: listening on port 33354 for incoming TCP connections
+HHC00100I Thread id 7F5EFB3E9700, prio  4, name 0:0688 communication thread started
+HHC01004I 0:0688 COMM: listening on port 27411 for incoming TCP connections
+HHC00100I Thread id 7F5EFB2E8700, prio  4, name 0:0689 communication thread started
+HHC01004I 0:0689 COMM: listening on port 27412 for incoming TCP connections
+HHC00100I Thread id 7F5EFB1E7700, prio  4, name 0:068A communication thread started
+HHC01004I 0:068A COMM: listening on port 27413 for incoming TCP connections
+HHC00100I Thread id 7F5EFB0E6700, prio  4, name 0:068B communication thread started
+HHC01004I 0:068B COMM: listening on port 27414 for incoming TCP connections
+HHC00100I Thread id 7F5EFAFE5700, prio  4, name 0:068C communication thread started
+HHC01004I 0:068C COMM: listening on port 27415 for incoming TCP connections
+HHC00100I Thread id 7F5EFAEE4700, prio  4, name 0:068D communication thread started
+HHC01004I 0:068D COMM: listening on port 27416 for incoming TCP connections
+HHC00100I Thread id 7F5EFADE3700, prio  4, name 0:068E communication thread started
+HHC01004I 0:068E COMM: listening on port 27417 for incoming TCP connections
+HHC00100I Thread id 7F5EFACE2700, prio  4, name 0:068F communication thread started
+HHC01004I 0:068F COMM: listening on port 27418 for incoming TCP connections
+HHC00414I 0:0152 CKD file dasd/hasp00.152: cyls 411 heads 19 tracks 7809 trklen 13312
+HHC00363W 0:0152 CCKD file dasd/hasp00.152: cdevhdr inconsistencies found, code 0001
+HHC00364W 0:0152 CCKD file dasd/hasp00.152: forcing check level 1
+HHC00368W 0:0152 CCKD file dasd/hasp00.152: free space errors detected
+HHC00377I 0:0152 CCKD file dasd/hasp00.152: free space rebuilt
+HHC00414I 0:0191 CKD file dasd/mvscat.191: cyls 1114 heads 15 tracks 16710 trklen 56832
+HHC00414I 0:0248 CKD file dasd/mvsdlb.248: cyls 560 heads 30 tracks 16800 trklen 19456
+HHC00363W 0:0248 CCKD file dasd/mvsdlb.248: cdevhdr inconsistencies found, code 0001
+HHC00364W 0:0248 CCKD file dasd/mvsdlb.248: forcing check level 1
+HHC00368W 0:0248 CCKD file dasd/mvsdlb.248: free space errors detected
+HHC00377I 0:0248 CCKD file dasd/mvsdlb.248: free space rebuilt
+HHC00414I 0:0148 CKD file dasd/mvsres.148: cyls 560 heads 30 tracks 16800 trklen 19456
+HHC00364W 0:0148 CCKD file dasd/mvsres.148: forcing check level 1
+HHC00368W 0:0148 CCKD file dasd/mvsres.148: free space errors detected
+HHC00377I 0:0148 CCKD file dasd/mvsres.148: free space rebuilt
+HHC00414I 0:0160 CKD file dasd/page00.160: cyls 698 heads 12 tracks 8376 trklen 8704
+HHC00363W 0:0160 CCKD file dasd/page00.160: cdevhdr inconsistencies found, code 0001
+HHC00364W 0:0160 CCKD file dasd/page00.160: forcing check level 1
+HHC00368W 0:0160 CCKD file dasd/page00.160: free space errors detected
+HHC00377I 0:0160 CCKD file dasd/page00.160: free space rebuilt
+HHC00414I 0:0161 CKD file dasd/page01.161: cyls 698 heads 12 tracks 8376 trklen 8704
+HHC00363W 0:0161 CCKD file dasd/page01.161: cdevhdr inconsistencies found, code 0001
+HHC00364W 0:0161 CCKD file dasd/page01.161: forcing check level 1
+HHC00368W 0:0161 CCKD file dasd/page01.161: free space errors detected
+HHC00377I 0:0161 CCKD file dasd/page01.161: free space rebuilt
+HHC00414I 0:0240 CKD file dasd/pub000.240: cyls 560 heads 30 tracks 16800 trklen 19456
+HHC00414I 0:0241 CKD file dasd/pub010.241: cyls 560 heads 30 tracks 16800 trklen 19456
+HHC00414I 0:0270 CKD file dasd/pub001.270: cyls 960 heads 12 tracks 11520 trklen 35840
+HHC00414I 0:0271 CKD file dasd/pub011.271: cyls 960 heads 12 tracks 11520 trklen 35840
+HHC00414I 0:0280 CKD file dasd/pub002.280: cyls 1772 heads 15 tracks 26580 trklen 47616
+HHC00414I 0:0281 CKD file dasd/pub012.281: cyls 1772 heads 15 tracks 26580 trklen 47616
+HHC00414I 0:0290 CKD file dasd/pub003.290: cyls 1114 heads 15 tracks 16710 trklen 56832
+HHC00414I 0:0291 CKD file dasd/pub013.291: cyls 2047 heads 15 tracks 30705 trklen 56832
+HHC00414I 0:0149 CKD file dasd/smp001.149: cyls 560 heads 30 tracks 16800 trklen 19456
+HHC00414I 0:014A CKD file dasd/smp002.14a: cyls 560 heads 30 tracks 16800 trklen 19456
+HHC00414I 0:014B CKD file dasd/smp003.14b: cyls 560 heads 30 tracks 16800 trklen 19456
+HHC00414I 0:014C CKD file dasd/smp004.14c: cyls 560 heads 30 tracks 16800 trklen 19456
+HHC00414I 0:0131 CKD file dasd/sort01.131: cyls 203 heads 20 tracks 4060 trklen 7680
+HHC00414I 0:0132 CKD file dasd/sort02.132: cyls 203 heads 20 tracks 4060 trklen 7680
+HHC00414I 0:0133 CKD file dasd/sort03.133: cyls 203 heads 20 tracks 4060 trklen 7680
+HHC00414I 0:0134 CKD file dasd/sort04.134: cyls 203 heads 20 tracks 4060 trklen 7680
+HHC00414I 0:0135 CKD file dasd/sort05.135: cyls 203 heads 20 tracks 4060 trklen 7680
+HHC00414I 0:0136 CKD file dasd/sort06.136: cyls 203 heads 20 tracks 4060 trklen 7680
+HHC00414I 0:0140 CKD file dasd/work00.140: cyls 560 heads 30 tracks 16800 trklen 19456
+HHC00414I 0:0170 CKD file dasd/work01.170: cyls 960 heads 12 tracks 11520 trklen 35840
+HHC00414I 0:0180 CKD file dasd/work02.180: cyls 886 heads 15 tracks 13290 trklen 47616
+HHC00414I 0:0190 CKD file dasd/work03.190: cyls 1114 heads 15 tracks 16710 trklen 56832
+HHC01437I Config file[106] conf/tk4-.cnf: including file conf/cbt_dasd.cnf
+HHC01437I Config file[110] conf/tk4-.cnf: including file conf/source_dasd.cnf
+HHC01437I Config file[114] conf/tk4-.cnf: including file conf/tk4-_updates.cnf
+HHC01437I Config file[10] conf/tk4-.cnf: including file conf/tk4-_updates/01
+HHC01437I Config file[11] conf/tk4-.cnf: including file conf/tk4-_updates/02
+HHC01437I Config file[12] conf/tk4-.cnf: including file conf/tk4-_updates/03
+HHC01437I Config file[13] conf/tk4-.cnf: including file conf/tk4-_updates/04
+HHC01437I Config file[14] conf/tk4-.cnf: including file conf/tk4-_updates/05
+HHC01437I Config file[15] conf/tk4-.cnf: including file conf/tk4-_updates/06
+HHC01437I Config file[16] conf/tk4-.cnf: including file conf/tk4-_updates/07
+HHC01437I Config file[17] conf/tk4-.cnf: including file conf/tk4-_updates/08
+HHC01437I Config file[18] conf/tk4-.cnf: including file conf/tk4-_updates/09
+HHC01437I Config file[19] conf/tk4-.cnf: including file conf/tk4-_updates/10
+HHC01437I Config file[118] conf/tk4-.cnf: including file conf/local.cnf
+HHC01437I Config file[10] conf/tk4-.cnf: including file local_conf/01
+HHC01437I Config file[11] conf/tk4-.cnf: including file local_conf/02
+HHC01437I Config file[12] conf/tk4-.cnf: including file local_conf/03
+HHC01437I Config file[13] conf/tk4-.cnf: including file local_conf/04
+HHC01437I Config file[14] conf/tk4-.cnf: including file local_conf/05
+HHC01437I Config file[15] conf/tk4-.cnf: including file local_conf/06
+HHC01437I Config file[16] conf/tk4-.cnf: including file local_conf/07
+HHC01437I Config file[17] conf/tk4-.cnf: including file local_conf/08
+HHC01437I Config file[18] conf/tk4-.cnf: including file local_conf/09
+HHC01437I Config file[19] conf/tk4-.cnf: including file local_conf/10
+HHC02260I Script 1: begin processing file scripts/ipl.rc
+HHC01603I hao tgt MVS038J
+HHC00077I The target was placed at index 0
+HHC01603I hao cmd script scripts/tk4-.rc
+HHC00077I The command was placed at index 0
+HHC01603I hao tgt IEA101A
+HHC00100I Thread id 7F5EFAAE0700, prio  0, name Hercules Automatic Operator started
+HHC00077I The target was placed at index 1
+HHC01603I hao cmd script ${SCR101A:=scripts}/SCR101A_${REP101A:=default}${CMD101A}
+HHC00077I The command was placed at index 1
+HHC01603I hao tgt IEA305A
+HHC00077I The target was placed at index 2
+HHC01603I hao cmd script ${SCR101A:=scripts}/SCR101A_${REP101A:=default}${CMD101A}
+HHC00077I The command was placed at index 2
+HHC01603I * pausing for a few seconds, please stand by.
+HHC01603I maxrates
+HHC02272I Highest observed MIPS and IO/s rates:
+HHC02272I From Thu Jan  1 00:00:00 1970 to Sat May 24 00:25:07 2025
+HHC02272I MIPS: 0.00
+HHC02272I IO/s: 0
+HHC02272I Current interval is 1440 minutes
+HHC01603I ipl 148
+HHC01603I * pausing for a few seconds, please stand by.
+HHC00811I Processor CP00: architecture mode S/370
+IEA101A SPECIFY SYSTEM PARAMETERS FOR RELEASE 03.8 .VS2
+HHC00081I Match at index 01, executing command script scripts/SCR101A_default
+HHC01603I script scripts/SCR101A_default
+HHC00010A Enter input for console 0:0009
+HHC02260I Script 2: begin processing file scripts/SCR101A_default
+HHC01603I * IEA101A just to make sure HAO gets it
+HHC00081I Match at index 01, executing command script scripts/SCR101A_default
+HHC01603I script scripts/SCR101A_default
+HHC02260I Script 3: begin processing file scripts/SCR101A_default
+HHC00008I /
+HHC02264I Script 2: file scripts/SCR101A_default processing ended
+HHC00100I Thread id 7F5EFA8DE700, prio 15, name Read-ahead thread-1 started
+HHC00100I Thread id 7F5EFA5DB700, prio 15, name Read-ahead thread-2 started
+HHC00100I Thread id 7F5EFA4DA700, prio 16, name Writer thread-1 started
+HHC00100I Thread id 7F5EFA3D9700, prio 16, name Garbage collector started
+IEA940I THE FOLLOWING PAGE DATA SETS ARE IN USE
+ PLPA ... SYS1.PAGELPA
+ COMMON . SYS1.PAGECSA
+ DUPLEX . SYS1.DUPLEX
+ LOCAL .. SYS1.PAGEL01
+ LOCAL .. SYS1.PAGEL02
+ IGF992I  MIH INIT COMPLETE, PRI=000300, SEC=000015
+ IEE360I SMF NOW RECORDING ON SYS1.MANX ON MVSRES TIME=01.25.14
+ RAKF is based on the ESG Security System
+ written by Craig J. Yasuna               (Mar 1991)
+ adapted to MVS 3.8J: A. Philip Dickinson (Aug 2005)
+                      Phil Roberts        (Apr 2011)
+                      Juergen Winkelmann  (Apr 2011)
+ RAKF001I RAKF is now being activated
+ RCVT WAS PROCESSED SUCCESSFULLY
+ RAKF003I RAKF is now active
+ RAKFPROF7  RAKF PROFILES UPDATED
+ RAKFUIDS4  USER TABLE UPDATED
+ IEF677I WARNING MESSAGE(S) FOR JOB JES2     ISSUED
+ $HASP493 JES2  WARM-START IS IN PROGRESS
+ $HASP412 MAXIMUM OF 1   READER(S)  EXCEEDED
+ $HASP412 MAXIMUM OF 1   PUNCH(ES)  EXCEEDED
+ $HASP412 MAXIMUM OF 3   PRINTER(S) EXCEEDED
+ $HASP406 STC   46 WAS EXECUTING
+ IEE041I THE SYSTEM LOG IS NOW ACTIVE
+ $HASP406 STC   47 WAS EXECUTING
+ IEE341I BSPPILOT NOT ACTIVE
+ $HASP406 STC   48 WAS EXECUTING
+ $HASP406 STC   33 WAS EXECUTING
+ $HASP406 STC   34 WAS EXECUTING
+ $HASP406 STC   35 WAS EXECUTING
+ $HASP406 STC   36 WAS EXECUTING
+ $HASP406 STC   37 WAS EXECUTING
+ $HASP406 STC   38 WAS EXECUTING
+ $HASP406 STC   39 WAS EXECUTING
+ $HASP406 STC   40 WAS EXECUTING
+ $HASP406 STC   43 WAS EXECUTING
+ $HASP406 STC   44 WAS EXECUTING
+ $HASP406 STC   45 WAS EXECUTING
+ $HASP160 PUNCH1   INACTIVE - CLASS=B
+ $HASP100 BSPPILOT ON STCINRDR
+ $HASP373 BSPPILOT STARTED
+ $HASP100 INIT     ON STCINRDR
+ $HASP373 INIT     STARTED
+ $HASP100 INIT     ON STCINRDR
+ $HASP373 INIT     STARTED
+ $HASP100 INIT     ON STCINRDR
+ $HASP373 INIT     STARTED
+ $HASP100 INIT     ON STCINRDR
+ $HASP373 INIT     STARTED
+ $HASP100 INIT     ON STCINRDR
+ $HASP373 INIT     STARTED
+ $HASP100 INIT     ON STCINRDR
+ $HASP373 INIT     STARTED
+ $HASP100 BSPSETPF ON STCINRDR
+ $HASP309    INIT  1 INACTIVE ******** C=A
+ $HASP309    INIT  2 INACTIVE ******** C=BA
+ $HASP373 BSPSETPF STARTED
+ $HASP309    INIT  3 INACTIVE ******** C=HBA
+ $HASP309    INIT  4 INACTIVE ******** C=SHB
+ $HASP309    INIT  5 INACTIVE ******** C=SBA
+ $HASP309    INIT  6 INACTIVE ******** C=SC
+ BSPSP91I - Parms passed: NOREPLYU
+ BSPSP93I - PFK definitions will be updated in memory
+ BSPSP22I - Dataset processed: SYS1.PARMLIB
+ BSPSP23I - on volume MVSRES
+ BSPSP21I - Member being processed: SETPFK01
+ +BSPSP98I - Member processed, LASTCC=0000
+ +BSPSP21I - Member being processed: SETPFK02
+ +BSPSP98I - Member processed, LASTCC=0000
+ +BSPSP99I - End of processing, MAXRC=0000
+ $HASP395 BSPSETPF ENDED
+HHC00008I /
+HHC01603I hao tgt HHC00010A
+HHC02264I Script 3: file scripts/SCR101A_default processing ended
+HHC00077I The target was placed at index 3
+HHC01603I hao cmd script scripts/SCR00010A
+HHC00077I The command was placed at index 3
+HHC00010A Enter input for console 0:0009
+HHC00081I Match at index 03, executing command script scripts/SCR00010A
+HHC01603I script scripts/SCR00010A
+HHC02260I Script 4: begin processing file scripts/SCR00010A
+HHC00100I Thread id 7F5EFA0D6700, prio 16, name Writer thread-2 started
+HHC00008I /d t
+HHC02264I Script 4: file scripts/SCR00010A processing ended
+HHC00008I /d t
+HHC02264I Script 1: file scripts/ipl.rc processing ended
+ IEE136I  TIME=01.25.18 DATE=25.144
+ IEE136I  TIME=01.25.18 DATE=25.144
+ +BSPPILOT - Running script STARTSTD
+ +BSPRS22I - Dataset processed: SYS1.PARMLIB
+ +BSPRS23I - on volume MVSRES
+ +BSPRS08I - PARM NOECHO
+ IEE302I 480      ONLINE
+ $HASP100 DYNAMASK ON STCINRDR
+ $HASP373 DYNAMASK STARTED
+ IEF403I DYNAMASK - STARTED - TIME=01.25.44
+ DMSK00I DYNAMASK DONE ****
+ DMSK06I  START
+ IEF404I DYNAMASK - ENDED - TIME=01.25.44
+ $HASP395 DYNAMASK ENDED
+ $HASP100 NET      ON STCINRDR
+ $HASP373 NET      STARTED
+ IEF403I NET - STARTED - TIME=01.25.47
+ $HASP100 TP       ON STCINRDR
+ $HASP373 TP       STARTED
+ IEF403I TP - STARTED - TIME=01.25.47
+ $HASP100 MF1      ON STCINRDR
+ $HASP373 MF1      STARTED
+ IEF403I MF1 - STARTED - TIME=01.25.47
+ IRB100I MF/1 IS ACTIVE
+ $HASP000 OK
+01.25.47           IEF236I ALLOC. FOR JES2 JES2
+01.25.47           IEF237I 00E  ALLOCATED TO PRINTER1
+01.25.47 STC   46  $HASP150 TSO      ON PRINTER1
+01.25.47 STC   46 *$HASP190 TSO      SETUP -- PRINTER1 -- F = 0001 -- C = 6    -- T = QN
+01.25.47 STC   45  $HASP150 MF1      ON PRINTER1
+01.25.47           $HASP185 PRINTER1 TERMINATED
+01.25.47 STC   62  $HASP150 MF1      ON PRINTER1        13 LINES
+01.25.47           $HASP160 PRINTER1 INACTIVE - CLASS=A
+01.25.47           IEF236I ALLOC. FOR JES2 JES2
+01.25.47           IEF237I 00F  ALLOCATED TO PRINTER2
+01.25.47 STC   46  $HASP150 TSO      ON PRINTER2        11 LINES
+01.25.47 STC   46 *$HASP190 TSO      SETUP -- PRINTER2 -- F = 0001 -- C = 6    -- T = QN
+01.25.47 STC   47  $HASP150 SNASOL   ON PRINTER2         7 LINES
+01.25.47 STC   46  $HASP250 TSO      IS PURGED
+01.25.47 STC   60  IST025I  BLDL FAILED FOR IEDIAE   IN VTAMLIB
+01.25.47 STC   60  IST025I  BLDL FAILED FOR IEDIAE   IN VTAMLIB
+01.25.47 STC   48  $HASP150 JRP      ON PRINTER2        30 LINES
+01.25.47 STC   47  $HASP250 SNASOL   IS PURGED
+01.25.47 STC   60  IST025I  BLDL FAILED FOR IEDIAE   IN VTAMLIB
+01.25.47 STC   60  IST025I  BLDL FAILED FOR IEDIAE   IN VTAMLIB
+01.25.47 STC   34  $HASP150 BSPPILOT ON PRINTER2         9 LINES
+01.25.47 STC   48  $HASP250 JRP      IS PURGED
+01.25.47 STC   60  IST025I  BLDL FAILED FOR IEDIAK   IN VTAMLIB
+01.25.47 STC   60  IST025I  BLDL FAILED FOR IEDIAK   IN VTAMLIB
+01.25.47 STC   35  $HASP150 INIT     ON PRINTER2         5 LINES
+01.25.47 STC   34  $HASP250 BSPPILOT IS PURGED
+01.25.47 STC   36  $HASP150 INIT     ON PRINTER2         5 LINES
+01.25.47 STC   35  $HASP250 INIT     IS PURGED
+01.25.47 STC   37  $HASP150 INIT     ON PRINTER2         5 LINES
+01.25.47 STC   36  $HASP250 INIT     IS PURGED
+01.25.47 STC   38  $HASP150 INIT     ON PRINTER2         5 LINES
+01.25.47 STC   37  $HASP250 INIT     IS PURGED
+01.25.47 STC   60  IST110I  NETWORK SOLICITOR STARTED
+01.25.47 STC   39  $HASP150 INIT     ON PRINTER2         5 LINES
+01.25.47 STC   38  $HASP250 INIT     IS PURGED
+01.25.47 STC   39  $HASP250 INIT     IS PURGED
+01.25.47 STC   40  $HASP150 INIT     ON PRINTER2         5 LINES
+01.25.47 STC   40  $HASP250 INIT     IS PURGED
+01.25.47 STC   43  $HASP150 NET      ON PRINTER2         9 LINES
+01.25.47           $HASP185 PRINTER2 TERMINATED
+01.25.47 STC   43  $HASP250 NET      IS PURGED
+01.25.47 STC   44  $HASP150 TP       ON PRINTER2        31 LINES
+01.25.47 STC   45  $HASP150 MF1      ON PRINTER2         7 LINES
+01.25.47 STC   44  $HASP250 TP       IS PURGED
+01.25.47 STC   58  $HASP150 BSPSETPF ON PRINTER2        32 LINES
+01.25.47 STC   45  $HASP250 MF1      IS PURGED
+01.25.47 STC   59  $HASP150 DYNAMASK ON PRINTER2        28 LINES
+01.25.47 STC   58  $HASP250 BSPSETPF IS PURGED
+01.25.47           IEF236I ALLOC. FOR JES2 JES2
+01.25.47           IEF237I 002  ALLOCATED TO PRINTER3
+01.25.47           $HASP160 PRINTER2 INACTIVE - CLASS=Z
+01.25.47 STC   59  $HASP250 DYNAMASK IS PURGED
+01.25.47           $HASP160 PRINTER3 INACTIVE - CLASS=X
+01.25.47 STC   60  IST197I  SAVED CONFIGURATION ATSO     READ FROM VTAMOBJ
+01.25.47 STC   60  IST093I  ATSO     ACTIVE
+01.25.47 STC   60  IST197I  SAVED CONFIGURATION ASNASOL  READ FROM VTAMOBJ
+01.25.47 STC   60  IST093I  ASNASOL  ACTIVE
+01.25.47 STC   60  IST197I  SAVED CONFIGURATION AJRP     READ FROM VTAMOBJ
+01.25.47 STC   60  IST093I  AJRP     ACTIVE
+01.25.47 STC   60  IST197I  SAVED CONFIGURATION L3274    READ FROM VTAMOBJ
+01.25.47 STC   60  IST093I  L3274    ACTIVE
+01.25.47 STC   60  IST197I  SAVED CONFIGURATION L3791    READ FROM VTAMOBJ
+01.25.47 STC   60  IST197I  SAVED CONFIGURATION S3705    READ FROM VTAMOBJ
+01.25.47 STC   60  IST093I  S3705    ACTIVE
+01.25.47 STC   60  IST093I  L3791    ACTIVE
+01.25.47 STC   60  IST197I  SAVED CONFIGURATION N07      READ FROM VTAMOBJ
+01.25.47 STC   60  IST197I  SAVED CONFIGURATION N08      READ FROM VTAMOBJ
+01.25.47 STC   60  IST197I  SAVED CONFIGURATION N10      READ FROM VTAMOBJ
+01.25.47 STC   60  IST197I  SAVED CONFIGURATION N11      READ FROM VTAMOBJ
+01.25.47 STC   60  IST197I  SAVED CONFIGURATION N12      READ FROM VTAMOBJ
+01.25.47 STC   60  IST197I  SAVED CONFIGURATION N13      READ FROM VTAMOBJ
+01.25.47 STC   60  IST197I  SAVED CONFIGURATION N14      READ FROM VTAMOBJ
+01.25.47 STC   60  IST197I  SAVED CONFIGURATION N15      READ FROM VTAMOBJ
+01.25.47 STC   63  $HASP100 TSO      ON STCINRDR
+01.25.47 STC   60  IST020I  VTAM INITIALIZATION COMPLETE
+01.25.47 STC   63  $HASP373 TSO      STARTED
+01.25.47 STC   63  IEF403I TSO - STARTED - TIME=01.25.47
+01.25.47 STC   60  IEA000I 0C0,IOE,05,0200,400000000001,,,NET     ,01.25.47
+01.25.47 STC   60  IEA000I 0C1,IOE,05,0200,400000000001,,,NET     ,01.25.47
+01.25.47 STC   60  IEA000I 0C2,IOE,05,0200,400000000001,,,NET     ,01.25.47
+01.25.47 STC   60  IEA000I 0C3,IOE,05,0200,400000000001,,,NET     ,01.25.47
+01.25.47 STC   60  IEA000I 0C4,IOE,05,0200,400000000001,,,NET     ,01.25.47
+01.25.47 STC   60  IEA000I 0C5,IOE,05,0200,400000000001,,,NET     ,01.25.47
+01.25.47 STC   60  IEA000I 0C6,IOE,05,0200,400000000001,,,NET     ,01.25.47
+01.25.47 STC   60  IFL003I  IFLOADRN COMPLETED
+01.25.47 STC   60  IST270I  370X N07      NOW LOADED WITH LOADMOD N07
+01.25.47 STC   63  IKT007I TCAS ACCEPTING LOGONS
+01.25.47 STC   63  IKT005I TCAS IS INITIALIZED
+01.25.49 STC   61  IKJ019I TIME SHARING IS INITIALIZED
+01.25.51 STC   64  $HASP100 SNASOL   ON STCINRDR
+01.25.51 STC   64  $HASP373 SNASOL   STARTED
+01.25.51 STC   64  IEF403I SNASOL - STARTED - TIME=01.25.51
+01.25.51 STC   65  $HASP100 JRP      ON STCINRDR
+01.25.51 STC   65  $HASP373 JRP      STARTED
+01.25.51 STC   65  IEF403I JRP - STARTED - TIME=01.25.51
+01.25.51 STC   64  +SNASOL - APPLICATION SNASOL   IS UP
+01.25.51 STC   65  JRPI101 INITIALIZATION COMPLETE
+01.25.51 STC   65  JRP904I - JRP WAITING FOR COMMAND.
+01.25.52 STC   60  IFL003I  IFLOADRN COMPLETED
+01.25.52 STC   60  IST270I  370X N10      NOW LOADED WITH LOADMOD N10
+01.25.52 STC   60  IST093I  N07      ACTIVE
+01.25.52 STC   60  IST093I  N07P3    ACTIVE
+01.25.52 STC   60  IST093I  N08      ACTIVE
+01.25.57 STC   60  IFL003I  IFLOADRN COMPLETED
+01.25.57 STC   60  IST270I  370X N12      NOW LOADED WITH LOADMOD N12
+01.25.57 STC   60  IST093I  N10      ACTIVE
+01.25.57 STC   60  IST093I  N10P3    ACTIVE
+01.25.57 STC   60  IST093I  N11      ACTIVE
+01.26.02 STC   60  IFL003I  IFLOADRN COMPLETED
+01.26.02 STC   60  IST270I  370X N14      NOW LOADED WITH LOADMOD N14
+01.26.02 STC   60  IST093I  N12      ACTIVE
+01.26.02 STC   60  IST093I  N12P3    ACTIVE
+01.26.02 STC   60  IST093I  N13      ACTIVE
+01.26.07 STC   60  IST093I  N14      ACTIVE
+01.26.07 STC   60  IST093I  N14P3    ACTIVE
+01.26.07 STC   60  IST093I  N15      ACTIVE
+01.26.11 STC   60  IST097I  VARY     ACCEPTED
+01.26.11 STC   60  IST093I  T3767S11 ACTIVE
+01.26.11 STC   60  IST097I  VARY     ACCEPTED
+01.26.11 STC   60  IST093I  T3767S21 ACTIVE
+01.26.11 STC   60  IST097I  VARY     ACCEPTED
+01.26.11 STC   60  IST093I  T3767S31 ACTIVE
+01.26.11 STC   60  IST097I  VARY     ACCEPTED
+01.26.11 STC   60  IST093I  T3767S41 ACTIVE
+01.26.11 STC   60  IST097I  VARY     ACCEPTED
+01.26.11 STC   60  IST093I  T3278S11 ACTIVE
+01.26.11 STC   60  IST097I  VARY     ACCEPTED
+01.26.11 STC   60  IST093I  T3278S21 ACTIVE
+01.26.11 STC   60  IST097I  VARY     ACCEPTED
+01.26.11 STC   60  IST093I  T3278S31 ACTIVE
+01.26.11 STC   60  IST097I  VARY     ACCEPTED
+01.26.11 STC   60  IST093I  T3278S41 ACTIVE
+01.26.11 STC   60  IST097I  VARY     ACCEPTED
+01.26.11 STC   60  IST093I  T3278L11 ACTIVE
+01.26.11 STC   60  IST097I  VARY     ACCEPTED
+01.26.11 STC   60  IST093I  T3278L21 ACTIVE
+01.26.11 STC   60  IST097I  VARY     ACCEPTED
+01.26.11 STC   60  IST093I  T3767L31 ACTIVE
+01.26.11 STC   60  IST097I  VARY     ACCEPTED
+01.26.11 STC   60  IST093I  T3767L41 ACTIVE
+01.26.16 STC   61  IED160I 3705 T07      LOAD=T07
+01.26.19 STC   61  IED160I 3705 T10      LOAD=T10
+01.26.22 STC   61  IED160I 3705 T12      LOAD=T12
+01.26.25 STC   61  IED160I 3705 T14      LOAD=T14
+01.26.29 STC   61  IED382I T07      ACTIVATE COMPLETE
+01.26.32 STC   61  IED382I T10      ACTIVATE COMPLETE
+HHC01018I 0:00C0 COMM: client 10.80.1.85 devtype 3270: connected
+01.26.35 STC   61  IED382I T12      ACTIVATE COMPLETE
+01.26.38 STC   61  IED382I T14      ACTIVATE COMPLETE
+01.26.39 STC   66  $HASP100 INISDSTD ON STCINRDR
+01.26.39 STC   66  $HASP373 INISDSTD STARTED
+01.26.39 STC   66  IEF403I INISDSTD - STARTED - TIME=01.26.39
+01.26.39           MVS038J MVS 3.8j TK4- system initialization complete CN=00
+HHC00081I Match at index 00, executing command script scripts/tk4-.rc
+HHC01603I script scripts/tk4-.rc
+HHC02260I Script 5: begin processing file scripts/tk4-.rc
+01.26.39 STC   51  +BSPRS99I - End of processing, MAXRC=0000
+01.26.39 STC   66  IEF404I INISDSTD - ENDED - TIME=01.26.39
+01.26.39 STC   66  $HASP395 INISDSTD ENDED
+01.26.39 STC   66  $HASP150 INISDSTD ON PRINTER2        21 LINES
+01.26.39           $HASP160 PRINTER2 INACTIVE - CLASS=Z
+01.26.39 STC   66  $HASP250 INISDSTD IS PURGED
+HHC01603I script scripts/tk4-_updates.rc
+HHC02260I Script 5: begin processing file scripts/tk4-_updates.rc
+HHC01603I script scripts/tk4-_updates/01
+HHC02260I Script 5: begin processing file scripts/tk4-_updates/01
+HHC02264I Script 5: file scripts/tk4-_updates/01 processing ended
+HHC01603I script scripts/tk4-_updates/02
+HHC02260I Script 5: begin processing file scripts/tk4-_updates/02
+HHC02264I Script 5: file scripts/tk4-_updates/02 processing ended
+HHC01603I script scripts/tk4-_updates/03
+HHC02260I Script 5: begin processing file scripts/tk4-_updates/03
+HHC02264I Script 5: file scripts/tk4-_updates/03 processing ended
+HHC01603I script scripts/tk4-_updates/04
+HHC02260I Script 5: begin processing file scripts/tk4-_updates/04
+HHC02264I Script 5: file scripts/tk4-_updates/04 processing ended
+HHC01603I script scripts/tk4-_updates/05
+HHC02260I Script 5: begin processing file scripts/tk4-_updates/05
+HHC02264I Script 5: file scripts/tk4-_updates/05 processing ended
+HHC01603I script scripts/tk4-_updates/06
+HHC02260I Script 5: begin processing file scripts/tk4-_updates/06
+HHC02264I Script 5: file scripts/tk4-_updates/06 processing ended
+HHC01603I script scripts/tk4-_updates/07
+HHC02260I Script 5: begin processing file scripts/tk4-_updates/07
+HHC02264I Script 5: file scripts/tk4-_updates/07 processing ended
+HHC01603I script scripts/tk4-_updates/08
+HHC02260I Script 5: begin processing file scripts/tk4-_updates/08
+HHC02264I Script 5: file scripts/tk4-_updates/08 processing ended
+HHC01603I script scripts/tk4-_updates/09
+HHC02260I Script 5: begin processing file scripts/tk4-_updates/09
+HHC02264I Script 5: file scripts/tk4-_updates/09 processing ended
+HHC01603I script scripts/tk4-_updates/10
+HHC02260I Script 5: begin processing file scripts/tk4-_updates/10
+HHC02264I Script 5: file scripts/tk4-_updates/10 processing ended
+HHC02264I Script 5: file scripts/tk4-_updates.rc processing ended
+HHC01603I ${LOCALRC:=script scripts/local.rc}
+HHC02260I Script 5: begin processing file scripts/local.rc
+HHC01603I script local_scripts/01
+HHC02260I Script 5: begin processing file local_scripts/01
+HHC02264I Script 5: file local_scripts/01 processing ended
+HHC01603I script local_scripts/02
+HHC02260I Script 5: begin processing file local_scripts/02
+HHC02264I Script 5: file local_scripts/02 processing ended
+HHC01603I script local_scripts/03
+HHC02260I Script 5: begin processing file local_scripts/03
+HHC02264I Script 5: file local_scripts/03 processing ended
+HHC01603I script local_scripts/04
+HHC02260I Script 5: begin processing file local_scripts/04
+HHC02264I Script 5: file local_scripts/04 processing ended
+HHC01603I script local_scripts/05
+HHC02260I Script 5: begin processing file local_scripts/05
+HHC02264I Script 5: file local_scripts/05 processing ended
+HHC01603I script local_scripts/06
+HHC02260I Script 5: begin processing file local_scripts/06
+HHC02264I Script 5: file local_scripts/06 processing ended
+HHC01603I script local_scripts/07
+HHC02260I Script 5: begin processing file local_scripts/07
+HHC02264I Script 5: file local_scripts/07 processing ended
+HHC01603I script local_scripts/08
+HHC02260I Script 5: begin processing file local_scripts/08
+HHC02264I Script 5: file local_scripts/08 processing ended
+HHC01603I script local_scripts/09
+HHC02260I Script 5: begin processing file local_scripts/09
+HHC02264I Script 5: file local_scripts/09 processing ended
+HHC01603I script local_scripts/10
+HHC02260I Script 5: begin processing file local_scripts/10
+HHC02264I Script 5: file local_scripts/10 processing ended
+HHC02264I Script 5: file scripts/local.rc processing ended
+HHC01603I *
+HHC01603I *                           ************   ****  *****          ||
+HHC01603I *                           **   **   **    **    **           |||
+HHC01603I *                           **   **   **    **   **           ||||
+HHC01603I *                                **         **  **           || ||
+HHC01603I *        |l      _,,,---,,_      **         ** **           ||  ||
+HHC01603I * ZZZzz /,'.-'`'    -.  ;-;;,    **         ****           ||   ||
+HHC01603I *      |,4-  ) )-,_. ,( (  ''-'  **         *****         ||    ||
+HHC01603I *     '---''(_/--'  `-')_)       **         **  **       ||     ||    ||||||||||
+HHC01603I *                                **         **   **      |||||||||||  Update 08
+HHC01603I *       The MVS 3.8j             **         **    **            ||
+HHC01603I *     Tur(n)key System           **         **     **           ||
+HHC01603I *                              ******      ****     ***       ||||||
+HHC01603I *
+HHC01603I *            TK3 created by Volker Bandke       vbandke@bsp-gmbh.com
+HHC01603I *            TK4- update by Juergen Winkelmann  winkelmann@id.ethz.ch
+HHC01603I *                     see TK4-.CREDITS for complete credits
+HHC01603I *
+HHC02264I Script 5: file scripts/tk4-.rc processing ended
+01.26.45           LGN001I TSO logon in progress at VTAM terminal CUU0C0
+01.26.47 TSU    3  $HASP100 IBMUSER  ON TSOINRDR
+01.26.47 TSU    3  $HASP373 IBMUSER  STARTED
+01.26.47 TSU    3  IEF125I IBMUSER - LOGGED ON - TIME=01.26.47
