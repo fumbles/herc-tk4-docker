@@ -2,7 +2,7 @@ services:
   tk4:
     #image: tk4-herc
     image: tk4-mvs
-    container_name: tk4-herc
+    container_name: tk4-mvs
     ports:
       - "3270:3270"
       - "8038:8038"
