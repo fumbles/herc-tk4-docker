@@ -1,0 +1,79 @@
+# Stage 1: Build Hercules with glibc ≥ 2.38
+FROM debian:trixie AS hercules-builder
+
+# Install build tools and dependencies
+RUN apt update \
+    && apt install -y apt-utils \
+    git net-tools wget curl sudo \
+    time ncat build-essential cmake regina-rexx libregina3-dev \
+    autoconf automake flex gawk m4 libtool \
+    libcap2-bin libbz2-dev zlib1g-dev
+
+# Create non-root user
+RUN useradd -ms /bin/bash hercules \
+    && adduser hercules sudo \
+    && echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
+
+USER hercules
+WORKDIR /home/hercules
+
+# Clone and build Hercules using hercules-helper
+RUN git clone https://github.com/wrljet/hercules-helper.git \
+    && mkdir herctest && cd herctest \
+    && ~/hercules-helper/hercules-buildall.sh --auto --flavor=sdl-hyperion
+
+
+# Stage 2: Build MVSCE with Hercules
+FROM debian:trixie AS sysgen
+USER root
+RUN apt-get update && \
+    apt-get -yq install --no-install-recommends git python3 apt-transport-https ca-certificates && \
+    apt-get clean && update-ca-certificates
+WORKDIR /
+RUN git clone https://github.com/MVS-sysgen/sysgen.git
+ARG RELEASE_VERSION=''
+WORKDIR /sysgen
+#RUN until ./sysgen.py --timeout 3600 --version V1R0M0 --CONTINUE; do echo "Failed, rerunning"; done
+RUN ./sysgen.py --timeout 3600 --version latest --CONTINUE || echo "Initial sysgen failed"
+RUN ./sysgen.py --timeout 3600 --version latest --CONTINUE || echo "Retry 1 failed"
+
+
+
+# Stage 3: Final runtime image
+FROM debian:trixie
+
+RUN apt update && apt install -y \
+    libcap2-bin socat ca-certificates openssl python3 netbase git
+
+# Create runtime user
+RUN useradd -ms /bin/bash hercules
+USER hercules
+WORKDIR /home/hercules
+
+# Copy Hercules from builder
+COPY --from=hercules-builder /home/hercules/herctest/herc4x/ /home/hercules/herctest/herc4x
+
+# Copy MVSCE sysgen output
+USER root
+COPY --from=sysgen /sysgen/MVSCE /MVSCE
+COPY mvs.sh /
+RUN chmod +x /mvs.sh
+
+# Set environment
+ENV PATH="/home/hercules/herctest/herc4x/bin:${PATH}"
+ENV LD_LIBRARY_PATH="/home/hercules/herctest/herc4x/lib"
+
+# Assign capabilities to Hercules binaries
+RUN setcap 'cap_sys_nice=eip' /home/hercules/herctest/herc4x/bin/hercules \
+    && setcap 'cap_sys_nice=eip' /home/hercules/herctest/herc4x/bin/herclin \
+    && setcap 'cap_net_admin+ep' /home/hercules/herctest/herc4x/bin/hercifc \
+    && chown hercules:hercules /home/hercules/herctest/herc4x/bin/hercules
+
+USER hercules
+
+# Expose volumes and ports for MVSCE
+VOLUME ["/config","/dasd","/printers","/punchcards","/logs", "/certs"]
+EXPOSE 3221 3223 3270 3505 3506 8888
+
+ENTRYPOINT ["./mvs.sh"]
+

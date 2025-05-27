@@ -13,24 +13,24 @@
 
 
 
-                   SSSSSSSSSS        11             444      8888888888                                AAAAAAAAAA
-                  SSSSSSSSSSSS      111            4444     888888888888                              AAAAAAAAAAAA
-                  SS        SS     1111           44 44     88        88                              AA        AA
-                  SS                 11          44  44     88        88                              AA        AA
-                  SSS                11         44   44      88      88                               AA        AA
-                   SSSSSSSSS         11        44444444444    88888888                                AAAAAAAAAAAA
-                    SSSSSSSSS        11       444444444444    88888888                                AAAAAAAAAAAA
-                           SSS       11              44      88      88                               AA        AA
-                            SS       11              44     88        88                              AA        AA
-                  SS        SS       11              44     88        88                              AA        AA
-                  SSSSSSSSSSSS   1111111111          44     888888888888                              AA        AA
-                   SSSSSSSSSS    1111111111          44      8888888888                               AA        AA
+                   SSSSSSSSSS        11        6666666666   555555555555                               AAAAAAAAAA
+                  SSSSSSSSSSSS      111       666666666666  555555555555                              AAAAAAAAAAAA
+                  SS        SS     1111       66        66  55                                        AA        AA
+                  SS                 11       66            55                                        AA        AA
+                  SSS                11       66            55                                        AA        AA
+                   SSSSSSSSS         11       66666666666   555555555                                 AAAAAAAAAAAA
+                    SSSSSSSSS        11       666666666666  5555555555                                AAAAAAAAAAAA
+                           SSS       11       66        66           55                               AA        AA
+                            SS       11       66        66            55                              AA        AA
+                  SS        SS       11       66        66            55                              AA        AA
+                  SSSSSSSSSSSS   1111111111   666666666666  555555555555                              AA        AA
+                   SSSSSSSSSS    1111111111    6666666666   55555555555                               AA        AA
 
 
-****A  START  STC  148  TSO                             ROOM        5.57.28 PM 24 MAY 25  PRINTER1  SYS TK4-  STC  148  START  A****
-****A  START  STC  148  TSO                             ROOM        5.57.28 PM 24 MAY 25  PRINTER1  SYS TK4-  STC  148  START  A****
-****A  START  STC  148  TSO                             ROOM        5.57.28 PM 24 MAY 25  PRINTER1  SYS TK4-  STC  148  START  A****
-****A  START  STC  148  TSO                             ROOM        5.57.28 PM 24 MAY 25  PRINTER1  SYS TK4-  STC  148  START  A****
+****A  START  STC  165  TSO                             ROOM       11.51.21 PM 25 MAY 25  PRINTER1  SYS TK4-  STC  165  START  A****
+****A  START  STC  165  TSO                             ROOM       11.51.21 PM 25 MAY 25  PRINTER1  SYS TK4-  STC  165  START  A****
+****A  START  STC  165  TSO                             ROOM       11.51.21 PM 25 MAY 25  PRINTER1  SYS TK4-  STC  165  START  A****
+****A  START  STC  165  TSO                             ROOM       11.51.21 PM 25 MAY 25  PRINTER1  SYS TK4-  STC  165  START  A****
 CONSOLE VALUES ENTERED:
     *NONE ENTERED*
 
@@ -75,92 +75,24 @@ CURRENT TCAS PARAMETERS:
 
 
 
-                   SSSSSSSSSS        11             444      8888888888                                AAAAAAAAAA
-                  SSSSSSSSSSSS      111            4444     888888888888                              AAAAAAAAAAAA
-                  SS        SS     1111           44 44     88        88                              AA        AA
-                  SS                 11          44  44     88        88                              AA        AA
-                  SSS                11         44   44      88      88                               AA        AA
-                   SSSSSSSSS         11        44444444444    88888888                                AAAAAAAAAAAA
-                    SSSSSSSSS        11       444444444444    88888888                                AAAAAAAAAAAA
-                           SSS       11              44      88      88                               AA        AA
-                            SS       11              44     88        88                              AA        AA
-                  SS        SS       11              44     88        88                              AA        AA
-                  SSSSSSSSSSSS   1111111111          44     888888888888                              AA        AA
-                   SSSSSSSSSS    1111111111          44      8888888888                               AA        AA
+                   SSSSSSSSSS        11        6666666666   555555555555                               AAAAAAAAAA
+                  SSSSSSSSSSSS      111       666666666666  555555555555                              AAAAAAAAAAAA
+                  SS        SS     1111       66        66  55                                        AA        AA
+                  SS                 11       66            55                                        AA        AA
+                  SSS                11       66            55                                        AA        AA
+                   SSSSSSSSS         11       66666666666   555555555                                 AAAAAAAAAAAA
+                    SSSSSSSSS        11       666666666666  5555555555                                AAAAAAAAAAAA
+                           SSS       11       66        66           55                               AA        AA
+                            SS       11       66        66            55                              AA        AA
+                  SS        SS       11       66        66            55                              AA        AA
+                  SSSSSSSSSSSS   1111111111   666666666666  555555555555                              AA        AA
+                   SSSSSSSSSS    1111111111    6666666666   55555555555                               AA        AA
 
 
-****A   END   STC  148  TSO                             ROOM        5.57.28 PM 24 MAY 25  PRINTER1  SYS TK4-  STC  148   END   A****
-****A   END   STC  148  TSO                             ROOM        5.57.28 PM 24 MAY 25  PRINTER1  SYS TK4-  STC  148   END   A****
-****A   END   STC  148  TSO                             ROOM        5.57.28 PM 24 MAY 25  PRINTER1  SYS TK4-  STC  148   END   A****
-****A   END   STC  148  TSO                             ROOM        5.57.28 PM 24 MAY 25  PRINTER1  SYS TK4-  STC  148   END   A****
-                                                    MM        MM  FFFFFFFFFFFF       11
-                                                   MMM      MMM  FFFFFFFFFFFF      111
-                                                  MMMM    MMMM  FF               1111
-                                                 MM MM  MM MM  FF                 11
-                                                MM  MMMM  MM  FF                 11
-                                               MM   MM   MM  FFFFFFFF           11
-                                              MM        MM  FFFFFFFF           11
-                                             MM        MM  FF                 11
-                                            MM        MM  FF                 11
-                                           MM        MM  FF                 11
-                                          MM        MM  FF             1111111111
-                                         MM        MM  FF             1111111111
-
-
-
-                   SSSSSSSSSS        11             444     777777777777                               AAAAAAAAAA
-                  SSSSSSSSSSSS      111            4444     77777777777                               AAAAAAAAAAAA
-                  SS        SS     1111           44 44     77      77                                AA        AA
-                  SS                 11          44  44            77                                 AA        AA
-                  SSS                11         44   44           77                                  AA        AA
-                   SSSSSSSSS         11        44444444444       77                                   AAAAAAAAAAAA
-                    SSSSSSSSS        11       444444444444       77                                   AAAAAAAAAAAA
-                           SSS       11              44          77                                   AA        AA
-                            SS       11              44          77                                   AA        AA
-                  SS        SS       11              44          77                                   AA        AA
-                  SSSSSSSSSSSS   1111111111          44          77                                   AA        AA
-                   SSSSSSSSSS    1111111111          44          77                                   AA        AA
-
-
-****A  START  STC  147  MF1                             ROOM        5.57.28 PM 24 MAY 25  PRINTER1  SYS TK4-  STC  147  START  A****
-****A  START  STC  147  MF1                             ROOM        5.57.28 PM 24 MAY 25  PRINTER1  SYS TK4-  STC  147  START  A****
-****A  START  STC  147  MF1                             ROOM        5.57.28 PM 24 MAY 25  PRINTER1  SYS TK4-  STC  147  START  A****
-****A  START  STC  147  MF1                             ROOM        5.57.28 PM 24 MAY 25  PRINTER1  SYS TK4-  STC  147  START  A****
-
-
-$HASP185 PRINTER1 TERMINATED                                                    MM        MM  FFFFFFFFFFFF       11
-                                                   MMM      MMM  FFFFFFFFFFFF      111
-                                                  MMMM    MMMM  FF               1111
-                                                 MM MM  MM MM  FF                 11
-                                                MM  MMMM  MM  FF                 11
-                                               MM   MM   MM  FFFFFFFF           11
-                                              MM        MM  FFFFFFFF           11
-                                             MM        MM  FF                 11
-                                            MM        MM  FF                 11
-                                           MM        MM  FF                 11
-                                          MM        MM  FF             1111111111
-                                         MM        MM  FF             1111111111
-
-
-
-                   SSSSSSSSSS        11             444     777777777777                               AAAAAAAAAA
-                  SSSSSSSSSSSS      111            4444     77777777777                               AAAAAAAAAAAA
-                  SS        SS     1111           44 44     77      77                                AA        AA
-                  SS                 11          44  44            77                                 AA        AA
-                  SSS                11         44   44           77                                  AA        AA
-                   SSSSSSSSS         11        44444444444       77                                   AAAAAAAAAAAA
-                    SSSSSSSSS        11       444444444444       77                                   AAAAAAAAAAAA
-                           SSS       11              44          77                                   AA        AA
-                            SS       11              44          77                                   AA        AA
-                  SS        SS       11              44          77                                   AA        AA
-                  SSSSSSSSSSSS   1111111111          44          77                                   AA        AA
-                   SSSSSSSSSS    1111111111          44          77                                   AA        AA
-
-
-****A   END   STC  147  MF1                             ROOM        5.57.28 PM 24 MAY 25  PRINTER1  SYS TK4-  STC  147   END   A****
-****A   END   STC  147  MF1                             ROOM        5.57.28 PM 24 MAY 25  PRINTER1  SYS TK4-  STC  147   END   A****
-****A   END   STC  147  MF1                             ROOM        5.57.28 PM 24 MAY 25  PRINTER1  SYS TK4-  STC  147   END   A****
-****A   END   STC  147  MF1                             ROOM        5.57.28 PM 24 MAY 25  PRINTER1  SYS TK4-  STC  147   END   A****
+****A   END   STC  165  TSO                             ROOM       11.51.21 PM 25 MAY 25  PRINTER1  SYS TK4-  STC  165   END   A****
+****A   END   STC  165  TSO                             ROOM       11.51.21 PM 25 MAY 25  PRINTER1  SYS TK4-  STC  165   END   A****
+****A   END   STC  165  TSO                             ROOM       11.51.21 PM 25 MAY 25  PRINTER1  SYS TK4-  STC  165   END   A****
+****A   END   STC  165  TSO                             ROOM       11.51.21 PM 25 MAY 25  PRINTER1  SYS TK4-  STC  165   END   A****
                                                     MM        MM  FFFFFFFFFFFF       11
                                                    MMM      MMM  FFFFFFFFFFFF      111
                                                   MMMM    MMMM  FF               1111
@@ -190,10 +122,78 @@ $HASP185 PRINTER1 TERMINATED                                                  
                    SSSSSSSSSS    1111111111    6666666666          44                                 AA        AA
 
 
-****A  START  STC  164  MF1                             ROOM        5.57.28 PM 24 MAY 25  PRINTER1  SYS TK4-  STC  164  START  A****
-****A  START  STC  164  MF1                             ROOM        5.57.28 PM 24 MAY 25  PRINTER1  SYS TK4-  STC  164  START  A****
-****A  START  STC  164  MF1                             ROOM        5.57.28 PM 24 MAY 25  PRINTER1  SYS TK4-  STC  164  START  A****
-****A  START  STC  164  MF1                             ROOM        5.57.28 PM 24 MAY 25  PRINTER1  SYS TK4-  STC  164  START  A****
+****A  START  STC  164  MF1                             ROOM       11.51.21 PM 25 MAY 25  PRINTER1  SYS TK4-  STC  164  START  A****
+****A  START  STC  164  MF1                             ROOM       11.51.21 PM 25 MAY 25  PRINTER1  SYS TK4-  STC  164  START  A****
+****A  START  STC  164  MF1                             ROOM       11.51.21 PM 25 MAY 25  PRINTER1  SYS TK4-  STC  164  START  A****
+****A  START  STC  164  MF1                             ROOM       11.51.21 PM 25 MAY 25  PRINTER1  SYS TK4-  STC  164  START  A****
+
+
+$HASP185 PRINTER1 TERMINATED                                                    MM        MM  FFFFFFFFFFFF       11
+                                                   MMM      MMM  FFFFFFFFFFFF      111
+                                                  MMMM    MMMM  FF               1111
+                                                 MM MM  MM MM  FF                 11
+                                                MM  MMMM  MM  FF                 11
+                                               MM   MM   MM  FFFFFFFF           11
+                                              MM        MM  FFFFFFFF           11
+                                             MM        MM  FF                 11
+                                            MM        MM  FF                 11
+                                           MM        MM  FF                 11
+                                          MM        MM  FF             1111111111
+                                         MM        MM  FF             1111111111
+
+
+
+                   SSSSSSSSSS        11        6666666666         444                                  AAAAAAAAAA
+                  SSSSSSSSSSSS      111       666666666666       4444                                 AAAAAAAAAAAA
+                  SS        SS     1111       66        66      44 44                                 AA        AA
+                  SS                 11       66               44  44                                 AA        AA
+                  SSS                11       66              44   44                                 AA        AA
+                   SSSSSSSSS         11       66666666666    44444444444                              AAAAAAAAAAAA
+                    SSSSSSSSS        11       666666666666  444444444444                              AAAAAAAAAAAA
+                           SSS       11       66        66         44                                 AA        AA
+                            SS       11       66        66         44                                 AA        AA
+                  SS        SS       11       66        66         44                                 AA        AA
+                  SSSSSSSSSSSS   1111111111   666666666666         44                                 AA        AA
+                   SSSSSSSSSS    1111111111    6666666666          44                                 AA        AA
+
+
+****A   END   STC  164  MF1                             ROOM       11.51.21 PM 25 MAY 25  PRINTER1  SYS TK4-  STC  164   END   A****
+****A   END   STC  164  MF1                             ROOM       11.51.21 PM 25 MAY 25  PRINTER1  SYS TK4-  STC  164   END   A****
+****A   END   STC  164  MF1                             ROOM       11.51.21 PM 25 MAY 25  PRINTER1  SYS TK4-  STC  164   END   A****
+****A   END   STC  164  MF1                             ROOM       11.51.21 PM 25 MAY 25  PRINTER1  SYS TK4-  STC  164   END   A****
+                                                    MM        MM  FFFFFFFFFFFF       11
+                                                   MMM      MMM  FFFFFFFFFFFF      111
+                                                  MMMM    MMMM  FF               1111
+                                                 MM MM  MM MM  FF                 11
+                                                MM  MMMM  MM  FF                 11
+                                               MM   MM   MM  FFFFFFFF           11
+                                              MM        MM  FFFFFFFF           11
+                                             MM        MM  FF                 11
+                                            MM        MM  FF                 11
+                                           MM        MM  FF                 11
+                                          MM        MM  FF             1111111111
+                                         MM        MM  FF             1111111111
+
+
+
+                   SSSSSSSSSS        11        9999999999     00000000                                 AAAAAAAAAA
+                  SSSSSSSSSSSS      111       999999999999   0000000000                               AAAAAAAAAAAA
+                  SS        SS     1111       99        99  00      0000                              AA        AA
+                  SS                 11       99        99  00     00 00                              AA        AA
+                  SSS                11       99        99  00    00  00                              AA        AA
+                   SSSSSSSSS         11       999999999999  00   00   00                              AAAAAAAAAAAA
+                    SSSSSSSSS        11       999999999999  00  00    00                              AAAAAAAAAAAA
+                           SSS       11                 99  00 00     00                              AA        AA
+                            SS       11                 99  0000      00                              AA        AA
+                  SS        SS       11       99        99  000       00                              AA        AA
+                  SSSSSSSSSSSS   1111111111   999999999999   0000000000                               AA        AA
+                   SSSSSSSSSS    1111111111    9999999999     00000000                                AA        AA
+
+
+****A  START  STC  190  MF1                             ROOM       11.51.21 PM 25 MAY 25  PRINTER1  SYS TK4-  STC  190  START  A****
+****A  START  STC  190  MF1                             ROOM       11.51.21 PM 25 MAY 25  PRINTER1  SYS TK4-  STC  190  START  A****
+****A  START  STC  190  MF1                             ROOM       11.51.21 PM 25 MAY 25  PRINTER1  SYS TK4-  STC  190  START  A****
+****A  START  STC  190  MF1                             ROOM       11.51.21 PM 25 MAY 25  PRINTER1  SYS TK4-  STC  190  START  A****
 IRB103I MF/1 OPTIONS IN EFFECT
 IRB103I   CPU
 IRB103I   PAGING
@@ -221,22 +221,22 @@ IRB103I   MEMBER(00)                                                    MM    
 
 
 
-                   SSSSSSSSSS        11        6666666666         444                                  AAAAAAAAAA
-                  SSSSSSSSSSSS      111       666666666666       4444                                 AAAAAAAAAAAA
-                  SS        SS     1111       66        66      44 44                                 AA        AA
-                  SS                 11       66               44  44                                 AA        AA
-                  SSS                11       66              44   44                                 AA        AA
-                   SSSSSSSSS         11       66666666666    44444444444                              AAAAAAAAAAAA
-                    SSSSSSSSS        11       666666666666  444444444444                              AAAAAAAAAAAA
-                           SSS       11       66        66         44                                 AA        AA
-                            SS       11       66        66         44                                 AA        AA
-                  SS        SS       11       66        66         44                                 AA        AA
-                  SSSSSSSSSSSS   1111111111   666666666666         44                                 AA        AA
-                   SSSSSSSSSS    1111111111    6666666666          44                                 AA        AA
+                   SSSSSSSSSS        11        9999999999     00000000                                 AAAAAAAAAA
+                  SSSSSSSSSSSS      111       999999999999   0000000000                               AAAAAAAAAAAA
+                  SS        SS     1111       99        99  00      0000                              AA        AA
+                  SS                 11       99        99  00     00 00                              AA        AA
+                  SSS                11       99        99  00    00  00                              AA        AA
+                   SSSSSSSSS         11       999999999999  00   00   00                              AAAAAAAAAAAA
+                    SSSSSSSSS        11       999999999999  00  00    00                              AAAAAAAAAAAA
+                           SSS       11                 99  00 00     00                              AA        AA
+                            SS       11                 99  0000      00                              AA        AA
+                  SS        SS       11       99        99  000       00                              AA        AA
+                  SSSSSSSSSSSS   1111111111   999999999999   0000000000                               AA        AA
+                   SSSSSSSSSS    1111111111    9999999999     00000000                                AA        AA
 
 
-****A   END   STC  164  MF1                             ROOM        5.57.28 PM 24 MAY 25  PRINTER1  SYS TK4-  STC  164   END   A****
-****A   END   STC  164  MF1                             ROOM        5.57.28 PM 24 MAY 25  PRINTER1  SYS TK4-  STC  164   END   A****
-****A   END   STC  164  MF1                             ROOM        5.57.28 PM 24 MAY 25  PRINTER1  SYS TK4-  STC  164   END   A****
-****A   END   STC  164  MF1                             ROOM        5.57.28 PM 24 MAY 25  PRINTER1  SYS TK4-  STC  164   END   A****
+****A   END   STC  190  MF1                             ROOM       11.51.21 PM 25 MAY 25  PRINTER1  SYS TK4-  STC  190   END   A****
+****A   END   STC  190  MF1                             ROOM       11.51.21 PM 25 MAY 25  PRINTER1  SYS TK4-  STC  190   END   A****
+****A   END   STC  190  MF1                             ROOM       11.51.21 PM 25 MAY 25  PRINTER1  SYS TK4-  STC  190   END   A****
+****A   END   STC  190  MF1                             ROOM       11.51.21 PM 25 MAY 25  PRINTER1  SYS TK4-  STC  190   END   A****
 

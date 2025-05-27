@@ -1,0 +1,50 @@
+FROM debian:trixie AS builder
+
+# Install build tools and dependencies
+RUN apt update \
+    && apt install -y apt-utils \
+    git net-tools wget curl sudo \
+    time ncat build-essential cmake regina-rexx libregina3-dev \
+    autoconf automake flex gawk m4 libtool \
+    libcap2-bin libbz2-dev zlib1g-dev
+
+# Create non-root user
+RUN useradd -ms /bin/bash hercules \
+    && adduser hercules sudo \
+    && echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
+
+USER hercules
+WORKDIR /home/hercules
+
+# Clone and build Hercules using hercules-helper
+RUN git clone https://github.com/wrljet/hercules-helper.git \
+    && mkdir herctest && cd herctest \
+    && ~/hercules-helper/hercules-buildall.sh --auto --flavor=sdl-hyperion
+
+# Final runtime image
+FROM debian:trixie
+
+RUN apt update && apt install -y libcap2-bin
+
+# Create runtime user
+RUN useradd -ms /bin/bash hercules
+
+USER hercules
+WORKDIR /home/hercules
+
+# Copy built Hercules
+COPY --from=builder /home/hercules/herctest/herc4x/ /home/hercules/herctest/herc4x
+
+# Set environment
+ENV PATH="/home/hercules/herctest/herc4x/bin:${PATH}"
+ENV LD_LIBRARY_PATH="/home/hercules/herctest/herc4x/lib"
+
+# Switch to root to assign capabilities
+USER root
+RUN setcap 'cap_sys_nice=eip' /home/hercules/herctest/herc4x/bin/hercules \
+    && setcap 'cap_sys_nice=eip' /home/hercules/herctest/herc4x/bin/herclin \
+    && setcap 'cap_net_admin+ep' /home/hercules/herctest/herc4x/bin/hercifc \
+    && chown hercules:hercules /home/hercules/herctest/herc4x/bin/hercules
+
+USER hercules
+

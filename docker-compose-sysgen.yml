@@ -1,0 +1,27 @@
+services:
+  mvsce:
+    #image: tk4-herc
+    image: mainframed767/mvsce:latest
+    container_name: mvsce
+    ports:
+      - "3271:3270"
+      - "2121:21"
+      - "2323:23"
+      - "3505:3505"
+      - "3506:3506"
+      - "8892:8888"
+    stdin_open: true     # Optional: for interactive console
+    tty: true            # Optional: for interactive terminal
+    environment:
+      HUSER: docker
+      HPASS: docker
+    volumes:
+      - ./mvsce_data/dasd:/dasd
+      - ./mvsce_data/log:/logs
+      - ./mvsce_data/printers:/printers
+      - ./mvsce_data/punchcards:/punchcards
+      - ./mvsce_data/certs:/certs
+      - ./mvsce_data:/config
+    restart: unless-stopped
+      
+
