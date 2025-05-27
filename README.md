@@ -8,6 +8,13 @@ Hercules: http://www.hercules-390.org/
   
   
 ```
+Updated:
+In the root directory of the repo:
+tk4_build/build.sh
+./start.sh
+(./stop.sh to stop or podman|docker stop tk4-mvs)
+
+Old method:
 cd tk4_data; docker build -t tk4-mvs .
 
 For an arm macbook:
@@ -99,5 +106,6 @@ UserID Password
 
 $000 music
 ```
+
 
 
