@@ -1,7 +1,8 @@
 services:
   mvsce:
     #image: tk4-herc
-    image: mainframed767/mvsce:latest
+    #image: mainframed767/mvsce:latest
+    image: hercules-mvsce-local:latest
     container_name: mvsce
     ports:
       - "3271:3270"
