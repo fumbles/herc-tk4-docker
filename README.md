@@ -59,6 +59,23 @@ tell application "iTerm"
 end tell
 ```  
 ### Passwords: 
+
+MVSCE:
+
+RAKF/TSO
+
+Username	Password
+IBMUSER	SYS1
+MVSCE01	CUL8TR
+MVSCE02	PASS4U
+⚠️ IBMUSER and MVSCE01 are RAKF and TSO admins.
+
+You can add a admin user using the --username flag. To add more users edit the users.conf file.
+
+
+
+
+Tk4-:
 https://hercules-390.yahoogroups.narkive.com/zJ27fQr5/all-the-passwords  
 
 
