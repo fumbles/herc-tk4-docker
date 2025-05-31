@@ -5,8 +5,11 @@ The MVS 3.8j Tur(n)key 4- System  for Hercules
 *Websites*: 
 TK4-: https://wotho.pebble-beach.ch/tk4-/    
 Hercules: http://www.hercules-390.org/  
+Hercules Docker: https://github.com/mainframed/docker-hercules/blob/main/Dockerfile
 MVSCE: https://brexx370.readthedocs.io/en/latest/installation.html#mvs-tk4-mvs-ce
 Sysgen: https://github.com/MVS-sysgen/sysgen  
+- https://github.com/MVS-sysgen/docker-mvsce/tree/main
+
   
 ```
 Updated:
